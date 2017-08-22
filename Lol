@@ -1,0 +1,324 @@
+<html>
+    <head>
+    <style>
+        * {
+     outline:none;
+ }
+body {
+    width:300px;
+    margin:0;
+}
+#input1 {
+    width:250px;
+    margin-top:20px;
+    margin-left:8px;
+    height:35px;
+    border-radius:10px;
+    border:solid #818181;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    color:black;
+}
+.container {
+    background-color:lightskyblue;
+    margin:50px;
+    height:330px;
+    width:270px;
+    border-radius:20px;
+    border:solid black 2px;
+    box-shadow:0 0 10px rgba(0,0,0,1);
+}
+#k0 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k1 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:14px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k2 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k3 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k4 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:14px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k5 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k6 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k7 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:14px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k8 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#k9 {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#kl {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#substraction {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:14px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#division {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#multiplikation {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#addicatation {
+    background-color:#424242;
+    width:50px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#equal {
+    background-color:#424242;
+    width:250px;
+    margin-top:10px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+#butto {
+    width:100px;
+    height:25px;
+    font-size:10px;
+    font-weight:bold;
+    border:solid black 1px;
+    background-color:black;
+    color:white;
+    border-radius:10px;
+}
+#inp {
+    border:none;
+    color:lightskyblue;
+    background-color:#323232;
+    margin-left:5px;
+    height:25px;
+    text-align:center;
+}
+#delkey {
+    background-color:#424242;
+    width:50px;
+    margin-top:0px;
+    margin-left:10px;
+    height:40px;
+    text-align:center;
+    font-size:20px;
+    color:white;
+    border-radius:10px;
+    border:solid #424242 1px;
+}
+    </style>
+    <script>
+function change() {
+var x = document.getElementById("inp").value;
+document.getElementsByTagName('html')[0].style.backgroundColor = x;
+}
+function deleteChar(){
+foo= input1.value;
+foo= foo.substring(0,foo.length-1)
+input1.value=foo;
+}
+function blinker() {
+
+  if ($('input[type=text]').attr('placeholder')) {
+    $('input[type=text]').attr('placeholder', '');
+  } else {
+    $('input[type=text]').attr('placeholder', '|');
+  }
+
+  setTimeout(blinker, 500);
+
+}
+    </script>
+    </head>
+    <body onload="blinker()">
+        <script        src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <div class="container">
+            <input id="input1" type="text"
+            placeholder="|">
+            <button onclick=input1.value+='1'
+            id="k1">1</button>
+            <button onclick=input1.value+='2'
+            id="k2">2</button>
+            <button onclick=input1.value+='3'
+            id="k3">3</button>
+            <button onclick=input1.value+='*'
+            id="multiplikation">x</button>
+            <button onclick=input1.value+='4'
+            id="k4">4</button>
+            <button onclick=input1.value+='5'
+            id="k5">5</button>
+            <button onclick=input1.value+='6'
+            id="k6">6</button>
+            <button onclick=input1.value+='.'
+            id="kl">.</button>
+            <button onclick=input1.value+='7'
+            id="k7">7</button>
+            <button onclick=input1.value+='8'
+            id="k8">8</button>
+            <button onclick=input1.value+='9'
+            id="k9">9</button>
+            <button         
+            onclick=input1.value+='/'
+            id="division">:</button>
+            <button onclick=input1.value+='-'
+            id="substraction">-
+            </button>
+            <button onclick=input1.value+='0'
+            id="k0">0</button>
+            <button onclick=input1.value+='+'
+            id="addicatation">+</button>
+            <button id="delkey" onclick="deleteChar();">DEL</button>
+            <button onclick=input1.value=eval(input1.value)
+            id="equal">=</button>
+        </div>
+        <input type="text" id="inp"
+        placeholder="Type in a color">
+        <button id="butto"
+        onclick=change();>Backgroundcolor</button>
+    </body>
+</html>
